@@ -1,0 +1,11 @@
+access_key                                  = ""
+secret_access_key                           = ""
+region                                      = ""
+environment                                 = ""
+project                                     = ""
+create_type                                 = "Terraform"
+vpc_cidr                                    = "10.2.0.0/16"
+public_subnet_az1_cidr                      = "10.2.0.0/24" # 256 ip address are available
+public_subnet_az2_cidr                      = "10.2.1.0/24" # 256 ip address are available
+private_subnet_az1_cidr                     = "10.2.2.0/24" # 256 ip address are available
+private_subnet_az2_cidr                     = "10.2.3.0/24" # 256 ip address are available

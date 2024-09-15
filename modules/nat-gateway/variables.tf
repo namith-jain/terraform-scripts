@@ -1,0 +1,9 @@
+variable "vpc_id" {}
+variable "environment" {}
+variable "project" {}
+variable "create_type" {}
+variable "public_subnet_az1_id" {}
+variable "internet_gateway" {}
+variable "public_subnet_az2_id" {}
+variable "private_subnet_az1_id" {}
+variable "private_subnet_az2_id" {}
